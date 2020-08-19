@@ -1,8 +1,8 @@
 <?php
 error_reporting(E_ALL & ~E_NOTICE);
-include 'vendor/autoload.php';
-include 'conststr.php';
-include 'common.php';
+include '../vendor/autoload.php';
+include '../conststr.php';
+include '../common.php';
 
 //echo '<pre>'. json_encode($_SERVER, JSON_PRETTY_PRINT).'</pre>';
 if (isset($_SERVER['USER'])&&$_SERVER['USER']==='qcloud') {
